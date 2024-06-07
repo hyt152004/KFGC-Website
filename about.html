@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Korean Foursquare Gospel Church</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+  <section class="sub-header">
+    <nav>
+      <a href="index.html">
+        <img src="images/KFGC_homePage_logo.png" style="transform: scale(1.5);">
+      </a>
+      <div class="nav-links" id="navLinks">
+        <i class="bi bi-x" onclick="hideMenu()"></i>
+
+        <ul>
+          <li><a href="/index.html">홈페이지</a></li>
+          <li><a href="/about.html">교회소개</a></li>
+          <li><a href="/direction.html">오시는길</a></li>
+          <li><a href="/blog.html">갤러리</a></li>
+        </ul>
+      </div>
+      <i class="bi bi-list" onclick="showMenu()"></i>
+    </nav>
+
+    <h1>교회소개</h1>
+
+  </section>
+
+
+  <!-- About Us Content -->
+
+  <section class="about-us">
+    <div class="row">
+      <div class="about-col">
+        <h1>교회에 대한 이야기 쓰기</h1>
+        <p>교회에 대한 이야기 쓰기</p>
+        <a href="https://www.foursquare.ca/" class="hero-btn red-btn">교단안내</a>
+      </div>
+      <div class="about-col">
+        <img src="images/about.jpg" alt="">
+      </div>
+    </div>
+  </section>
+
+
+  <section class="campus">
+    <h1>교육자 소개</h1>
+
+
+    <div class="row">
+      <div class="campus-col">
+        <img src="images/sandwich-making.png">
+        <div class="layer">
+          <h3>홍석인 목사</h3>
+        </div>
+      </div>
+      <div class="campus-col">
+        <img src="images/prayer-homeless.jpeg">
+        <div class="layer">
+          <h3>노승수 목사</h3>
+        </div>
+      </div>
+      <div class="campus-col">
+        <img src="images/initiative-with-his-love.png">
+        <div class="layer">
+          <h3>김지혜 전도사</h3>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="campus-col">
+        <img src="images/sandwich-making.png">
+        <div class="layer">
+          <h3>서주혜 전도사</h3>
+        </div>
+      </div>
+      <div class="campus-col">
+        <img src="images/prayer-homeless.jpeg">
+        <div class="layer">
+          <h3>선교사 이정석 목사</h3>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+
+
+
+
+  <!-- Footer -->
+  <section class="footer">
+    <!-- <h4>About Us</h4> -->
+    <h4>교회정보</h4>
+    <p>마지막 하고싶은말 쓰기</p>
+
+    <div class="icons">
+      <a href="https://www.facebook.com/somang.foursquare/">
+        <i class="bi bi-facebook"></i>
+      </a>
+      <a href="https://www.youtube.com/@jwpark57">
+        <i class="bi bi-youtube"></i>
+      </a>
+      <a href="7789528934">
+        <i class="bi bi-telephone-fill"></i>
+      </a>
+    </div>
+    <p>Made By Korean Foursquare Gospel Church</p>
+  </section>
+
+
+  <!-- Javascript for Toggle Menu -->
+
+  <script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+      navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+      navLinks.style.right = "-200.5px";
+    }
+
+
+  </script>
+
+
+</body>
+
+</html>

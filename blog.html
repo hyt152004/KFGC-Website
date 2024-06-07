@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Korean Foursquare Gospel Church</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+  <section class="sub-header">
+    <nav>
+      <a href="index.html"><img src="images/KFGC_homePage_logo.png" style="transform: scale(1.5);"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="bi bi-x" onclick="hideMenu()"></i>
+
+        <ul>
+          <li><a href="/index.html">홈페이지</a></li>
+          <li><a href="/about.html">교회소개</a></li>
+          <li><a href="/direction.html">오시는길</a></li>
+          <li><a href="/blog.html">갤러리</a></li>
+        </ul>
+      </div>
+      <i class="bi bi-list" onclick="showMenu()"></i>
+    </nav>
+
+    <h1>갤러리</h1>
+
+  </section>
+
+
+  <section class="blog-content">
+    <div className="gallary">
+      <div className="top">
+        <div className="bigVid">
+          <iframe width="1000" height="475" src="https://www.youtube.com/embed/d8naCs2Dt10?si=7crE3EXGboXSa1xO"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div class="bottom">
+        <div class="grid-item">
+          <iframe width="450" height="253" src="https://www.youtube.com/embed/ZEo6KMNHBAU?si=qSLu9fnO0LIBTvZE"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="grid-item">
+          <iframe width="450" height="253" src="https://www.youtube.com/embed/DMDpkPoCMjc?si=xQNkb0QWTXyHIIk9"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="grid-item">
+          <iframe width="450" height="253" src="https://www.youtube.com/embed/cDTsy4j5Pf0?si=1rKobfjAUC4E9io-"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="grid-item">
+          <iframe width="450" height="253" src="https://www.youtube.com/embed/EPUMq5thaNs?si=4ovlXwgVqZiK_EPE"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="grid-item">
+          <iframe width="450" height="253" src="https://www.youtube.com/embed/P07lc8ETIFw?si=YrlfoUekqZhA7pEp"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+        <div class="grid-item">
+          <iframe width="450" height="253" src="https://www.youtube.com/embed/ZZVVcU9sWp8?si=4Ngqy27apr5WJoid"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </div>
+      <div>
+        <button onClick={clickMe}>Load More...</button>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+  <section class="footer">
+    <!-- <h4>About Us</h4> -->
+    <h4>교회정보</h4>
+    <p>마지막 하고싶은말 쓰기</p>
+
+    <div class="icons">
+      <a href="https://www.facebook.com/somang.foursquare/">
+        <i class="bi bi-facebook"></i>
+      </a>
+      <a href="https://www.youtube.com/@jwpark57">
+        <i class="bi bi-youtube"></i>
+      </a>
+      <a href="7789528934">
+        <i class="bi bi-telephone-fill"></i>
+      </a>
+    </div>
+    <p>Made By Korean Foursquare Gospel Church</p>
+  </section>
+
+
+  <!-- Javascript for Toggle Menu -->
+
+  <script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+      navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+      navLinks.style.right = "-200.5px";
+    }
+
+
+  </script>
+
+
+</body>
+
+</html>
